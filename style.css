@@ -1,0 +1,264 @@
+/*
+	Theme: CSS3 Contact card
+	Date: Juli 2013
+	Descirption: Basic HTML5/CSS3 Contact card
+	Version: 1.0
+	Author: Sebastian
+*/
+
+/*  =============================
+	======== Body style =========
+	============================= */
+
+body {
+		/* background-color: #fdfff0;
+	color: #34320b;*/
+    background-color:#fbf9c4;
+    width: auto;
+    margin: 0;
+	font-size: 87.5%; /* Base fontsize is 14px */
+	font-family: Times, Arial, Verdana;
+	line-height: 1.5;
+}
+
+
+/*  =============================
+	======== Fonts =========
+	============================= */
+
+h2 {
+	font-size: 220%;
+	font-weight: 100;
+    margin:0;
+}
+
+h3 {
+	font-size: 100%;
+	 
+}
+
+h4 {
+	line-height: 1.2;
+	font-size: 100%; 
+	font-weight: 100; 
+}
+
+a {
+	text-decoration: none;
+}
+
+a:link, a:visited {
+	color: #a80000;
+}
+
+a:hover, a:active {
+	text-decoration: underline;
+}
+
+
+
+.mainHeader img {
+	width: 140px;
+	height: 220px;
+	margin: 0;
+}
+
+.mainBAS img {
+	width: 280px;
+	height: 440px;
+	/*margin: 20px 20px 20px 20px;*/
+    padding: 10px 0px 0px 20px;
+    float:left;
+}
+
+
+/*  =============================
+	======== Hintergründe =========
+	============================= */
+.linie {
+  border-bottom:1px solid black;
+}
+
+/* .body {
+	margin:2% 6% 2% 6%;
+	clear: both;	
+}
+*/
+
+.mainTitle {
+	height: 30px;
+	width: 450px;
+	font-size: 250%;
+	color: #a80000;
+	/*color: #f9ffb8;*/
+	text-align: center;
+	margin: 0;
+}
+
+.subTitle {
+	width: 450px;
+	font-size: 120%;
+	font-style: italic;
+	color: #a80000;
+	text-align: center;
+}
+
+.mainHeader nav a:link, .mainHeader nav a:visited {
+	color: #FFF; 
+	padding: 10px 15px;
+	height: 20px;
+}
+
+.mainHeader nav a:hover, .mainHeader nav a:active, 
+.mainHeader nav .active a:link, mainHeader nav .active a:visited {
+	background-color: #cf5b3e;
+	text-shadow: none;
+}
+
+.mainHeader nav ul li a {
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+}
+
+
+section {
+    background-image: url('img/card_bg.png');
+    margin:0;
+    /*background-color: #fff;*/
+    box-shadow: rgba(0, 0, 0, 0.8) 0px 0px 1px;
+}
+
+section2 {
+    background-color: #e2e2e2;
+    box-shadow: rgba(0, 0, 0, 0.8) 0px 0px 1px;
+    align-items:center;
+    margin:0;
+}
+
+/*  =============================
+	======== Bilder =========
+	============================= */
+
+
+
+
+
+.mainContent {
+	padding: 0px 5px 0px 5px;
+	margin: 0 0 40px 0;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	width: 500px;
+	height: 250px;
+	background-color: #fffde0;
+	background-image: url('img/card_bg.png');
+	box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 8px;
+	
+}	
+
+.pricelist {
+	padding: 10px 0px 50px 0px;
+	margin: 0%;
+	width: 100;
+	height: auto;
+}	
+
+
+
+
+.spalte1 {
+    width:40px; 
+    /* background: #fff;*/
+}
+
+.spalte2 {
+    width:340px; 
+    /* background: #fff;*/
+}
+
+.spalte3 {
+    width:70px; 
+    /* background: #fff;*/
+}
+
+.spalte4 {
+    width:50px; 
+    color:#00aa1a;
+    /* background: #fff;*/
+}
+
+
+
+.name {
+	text-align: center;
+	line-height:0.2;
+	padding: 10px;
+    margin:0;
+}
+
+.content {
+	list-style: none;
+	line-height:1.2;
+	margin: 0 auto;
+}
+
+.label {
+	float: left;
+	display:block;
+	padding-left: 115px; 
+	text-align: right;
+}
+
+.label h3 row p {
+	padding-top: 5px;
+	padding-bottom: 32px;
+}
+
+
+.contact h4 {
+	text-align: left;
+	padding-top: 5px;
+	padding-left: 185px; 
+}
+
+/*  =============================
+	======== Footer =========
+	============================= */
+
+.footer li {
+	list-style: none;
+	display: inline-block;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+    padding-bottom:5px;
+    font-size: 95%; 
+	margin: auto;
+}
+/*  =============================
+	======== Button =========
+	============================= */
+.button {
+	width: 200px;
+	height: 40px;
+	background-color: #a80000;
+	color: #FFF;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}	
+
+.button a:link, .button a:hover {
+	color: rgb(255, 59, 59); 
+	padding: 10px 15px;
+	height: 20px;
+}
+
+#button {
+    color: #fff;
+    text-align: center;
+
+    
+}
